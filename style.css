@@ -1,0 +1,40 @@
+body {
+  background-color: black;
+  overflow: hidden;
+}
+#content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 98vw;
+  height: 98vh;
+}
+#logo {
+  position: relative;
+  width: 100px;
+  height: 102px;
+}
+#text {
+  border: solid 2px rgb(255, 157, 0);
+  border-radius: 1vw;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  text-align: center;
+}
+#text h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: rgb(255, 157, 0);
+  text-align: center;
+  font-weight: 800;
+}
+#text a {
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  color: rgb(255, 181, 63);
+  text-align: center;
+  font-weight: 800;
+}
